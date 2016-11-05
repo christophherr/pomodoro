@@ -1,0 +1,66 @@
+body {
+  background: #f1f1f1;
+}
+h1, h2 {
+  text-align: center;
+}
+
+.timer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+}
+
+.timer p {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.add-minutes, .reduce-minutes {
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid blue;
+  font-size: 20px;
+  padding: 2px;
+  margin-bottom: 25px;
+}
+
+.add-minutes:hover, .reduce-minutes:hover {
+background: #c1c1c1;
+}
+
+.flipclock-position {
+  display: table;
+  margin: 0 auto;
+}
+
+.control-buttons {
+  text-align: center;
+  margin-top: 15px;
+}
+.start-button, .reset-button {
+  padding: 16px 20px;
+  display: inline-block;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.start-button {
+  border: 1px solid green;
+}
+
+.start-button:hover {
+  color: white;
+  background-color: green;
+}
+
+.reset-button {
+  border: 1px solid red;
+}
+
+.reset-button:hover {
+  color: white;
+  background-color: red;
+}
