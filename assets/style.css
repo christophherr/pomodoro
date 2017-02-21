@@ -17,7 +17,8 @@ h1, h2 {
   margin-bottom: 0;
 }
 
-.add-minutes, .reduce-minutes {
+.add-minutes,
+.reduce-minutes {
   width: 30px;
   display: inline-block;
   text-align: center;
@@ -27,7 +28,10 @@ h1, h2 {
   margin-bottom: 25px;
 }
 
-.add-minutes:hover, .reduce-minutes:hover {
+.add-minutes:focus,
+.add-minutes:hover,
+.reduce-minutes:focus,
+.reduce-minutes:hover {
 background: #c1c1c1;
 }
 
@@ -40,7 +44,8 @@ background: #c1c1c1;
   text-align: center;
   margin-top: 15px;
 }
-.start-button, .reset-button {
+.start-button,
+.reset-button {
   padding: 16px 20px;
   display: inline-block;
   font-size: 24px;
@@ -51,6 +56,7 @@ background: #c1c1c1;
   border: 1px solid green;
 }
 
+.start-button:focus,
 .start-button:hover {
   color: white;
   background-color: green;
@@ -60,6 +66,7 @@ background: #c1c1c1;
   border: 1px solid red;
 }
 
+.reset-button:focus,
 .reset-button:hover {
   color: white;
   background-color: red;
